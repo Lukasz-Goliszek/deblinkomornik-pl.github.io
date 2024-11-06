@@ -1,0 +1,192 @@
+.home {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.home .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #363a45;
+}
+
+.home .logo {
+    position: relative;
+    width: 391px;
+    height: 83px;
+}
+
+.home .menu {
+    align-items: flex-start;
+    gap: 40px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home .menu-cell {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.home .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    line-height: 21.8px;
+    white-space: nowrap;
+}
+
+.home .text-wrapper.highlight {
+    color: #c7ac75;
+}
+
+.home .hero {
+    position: relative;
+    width: 100%;
+    height: 661px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(./img/hero-home-desktop.png);
+    background-image: -webkit-image-set(
+            url('./img/hero-home-desktop.webp') 1x
+    );
+    background-image: image-set(
+            url('./img/hero-home-desktop.webp') 1x
+    );
+}
+
+.home .frame-text {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    align-items: flex-start;
+    gap: 56px;
+    padding: 48px 40px;
+    position: relative;
+    top: 109px;
+    left: 120px;
+    background-color: #00000080;
+    border: 1px solid transparent;
+    backdrop-filter: blur(32px) brightness(100%);
+    -webkit-backdrop-filter: blur(32px) brightness(100%);
+    border-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.63),
+            rgba(255, 255, 255, 0.2) 47.4%,
+            rgba(255, 255, 255, 0.45) 96.88%
+    ) 1;
+}
+
+.home .bailiff-name {
+    position: relative;
+    width: 659px;
+    margin-top: -1px;
+    margin-right: -99px;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    line-height: 2.75rem;
+}
+
+.home .section-text-stronger {
+    position: relative;
+    width: 454px;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    line-height: 1.6rem;
+}
+
+.home .welcome {
+    position: relative;
+    align-self: stretch;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.home .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 6.0rem 7.5rem;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.home .quote {
+    position: relative;
+    width: 100%;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 2rem;
+}
+
+.home .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 6.0rem 7.5rem;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #363a45;
+}
+
+.home .footer-bailiff-name {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inria Serif", Helvetica, serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 2.0rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 2.1rem;
+}
+
+.home .footer-disclaimer {
+    position: relative;
+    align-self: stretch;
+    font-family: "Lato", Helvetica, serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.0rem;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.1rem;
+}
